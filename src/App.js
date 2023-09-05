@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import BasicObject from './component/basicObject';
+import BasicArray from './component/basicArray';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <h1>Basici React Object   </h1> <h1>   Basic React Array</h1>
       </header>
+      <div className='App-div'>
+      <BasicObject  />
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <  BasicArray/>
+      </div>
     </div>
   );
 }
