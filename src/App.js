@@ -2,6 +2,8 @@
 import './App.css';
 import BasicObject from './component/basicObject';
 import BasicArray from './component/basicArray';
+import HookEffect from './component/HookuseEffect'
+import ClassComponet from './component/classComponet'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <  BasicArray/>
       </div>
+      <HookEffect/>
+      <ClassComponet/>
     </div>
   );
 }
