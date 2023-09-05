@@ -5,6 +5,7 @@ import BasicArray from './component/basicArray';
 import HookEffect from './component/HookuseEffect';
 import ClassComponet from './component/classComponet';
 import OneEffect from './component/oneUseEffect';
+import EffectClear from './component/effectClear';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       </div>
       <HookEffect/>
       <ClassComponet/>
-      <OneEffect/>
+      {/* <OneEffect/> */}
+      <EffectClear/>
     </div>
   );
 }

@@ -11,10 +11,14 @@ function OneUseEffect() {
         setY(event.clientY)
     }
     useEffect((event)=>{
-        console.log("window Activite");
-        
+        console.log("Component mount");
         window.addEventListener('mousemove', logmouse)
-    },[])
+        return (()=>{
+          console.log('Component unmount');
+          
+        window.removeEventListener('mousemove', logmouse);
+        })
+    }, [])
   return (
     <div>
         <h1>run one useEffect</h1>
