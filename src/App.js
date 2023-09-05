@@ -2,8 +2,9 @@
 import './App.css';
 import BasicObject from './component/basicObject';
 import BasicArray from './component/basicArray';
-import HookEffect from './component/HookuseEffect'
-import ClassComponet from './component/classComponet'
+import HookEffect from './component/HookuseEffect';
+import ClassComponet from './component/classComponet';
+import OneEffect from './component/oneUseEffect';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </div>
       <HookEffect/>
       <ClassComponet/>
+      <OneEffect/>
     </div>
   );
 }
